@@ -34,7 +34,7 @@ Jiangxi college of construction
 ### International Conference
 1. [Sentence-to-Label Generation Framework for Multi-task Learning of Japanese Sentence Classification and Named Entity Recognition](https://link.springer.com/chapter/10.1007/978-3-031-35320-8_18), NLDB2023.  
    Chengguang Gan, Qinghao Zhang, Tatsunori Mori
-2. [A Few-Shot Approach to Resume Information Extraction via Prompts](https://link.springer.com/chapter/10.1007/978-3-031-35320-8_18](https://link.springer.com/chapter/10.1007/978-3-031-35320-8_32), NLDB2023.
+2. [A Few-Shot Approach to Resume Information Extraction via Prompts](https://link.springer.com/chapter/10.1007/978-3-031-35320-8_32), NLDB2023.
    Chengguang Gan, Tatsunori Mori 
 
 ---
