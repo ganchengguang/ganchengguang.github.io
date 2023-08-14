@@ -82,8 +82,7 @@ analytics:
 author:
   name             : "Gan Chengguang"
   avatar           : "images/gan.png"
-  bio              : "You can find my dataset and model in"
-  bio_link         : "https://huggingface.co/ganchengguang"
+  bio              : "You can find my dataset and model in Huggingface(https://huggingface.co/ganchengguang)"
   location         : "Yokohama, Japan"
   employer         :
   pubmed           :
