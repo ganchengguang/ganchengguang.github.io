@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Gan Chengguang"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -80,15 +80,16 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  name             : "Gan Chengguang"
+  avatar           : "gan.png"
+  bio              : 
+  location         : "Yokohama, Japan"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  pubmed           :
+  Huggingface      : "https://huggingface.co/ganchengguang"
+  googlescholar    : "https://scholar.google.com/citations?user=FepMPoMAAAAJ&hl=ja"
+  email            : "gan-chengguang-pw@ynu.jp"
+  researchgate     :  
   uri              :
   bitbucket        :
   codepen          :
@@ -96,20 +97,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "https://github.com/ganchengguang"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      :
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "https://www.linkedin.com/in/chengguang-gan-3046a2196/"
+  orcid            : "https://orcid.org/0000-0001-8034-0993"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
+  stackoverflow    : 
+  steam            : "https://steamcommunity.com/id/375623682/"
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
