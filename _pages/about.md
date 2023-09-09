@@ -30,21 +30,23 @@ Jiangxi college of construction
 
 
 ## Publications
+(In chronological order. The later the newer)
 
 ### International Conference
 1. [Sentence-to-Label Generation Framework for Multi-task Learning of Japanese Sentence Classification and Named Entity Recognition](https://link.springer.com/chapter/10.1007/978-3-031-35320-8_18), NLDB2023.  
    Chengguang Gan, Qinghao Zhang, Tatsunori Mori
 2. [A Few-Shot Approach to Resume Information Extraction via Prompts](https://link.springer.com/chapter/10.1007/978-3-031-35320-8_32), NLDB2023.
-   Chengguang Gan, Tatsunori Mori 
+   Chengguang Gan, Tatsunori Mori
+3. [Sensitivity and Robustness of Large Language Models to Prompt in Japanese](https://arxiv.org/abs/2305.08714). PACLIC37(accepted) 2023
+   Chengguang Gan, Tatsunori Mori
 
 ---
 
 ### Arxiv
-1. [Sensitivity and Robustness of Large Language Models to Prompt in Japanese](https://arxiv.org/abs/2305.08714).
-   Chengguang Gan, Tatsunori Mori
-2. [Mutual Reinforcement Effects in Japanese Sentence Classification and Named Entity Recognition Tasks](https://arxiv.org/abs/2307.10291).
+1. [Mutual Reinforcement Effects in Japanese Sentence Classification and Named Entity Recognition Tasks](https://arxiv.org/abs/2307.10291).
    Chengguang Gan, Qinghao Zhang, Tatsunori Mori
-
+2. [USA: Universal Sentiment Analysis Model & Construction of Japanese Sentiment Text Classification and Part of Speech Dataset](https://arxiv.org/abs/2309.03787).
+   Chengguang Gan, Qinghao Zhang, Tatsunori Mori
 ---
 
 ### Journal
