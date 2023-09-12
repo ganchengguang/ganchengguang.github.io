@@ -34,19 +34,19 @@ Jiangxi college of construction
 
 ### International Conference
 1. [Sentence-to-Label Generation Framework for Multi-task Learning of Japanese Sentence Classification and Named Entity Recognition](https://link.springer.com/chapter/10.1007/978-3-031-35320-8_18), NLDB2023.  
-   Chengguang Gan, Qinghao Zhang, Tatsunori Mori
+   **Chengguang Gan**, Qinghao Zhang, Tatsunori Mori
 2. [A Few-Shot Approach to Resume Information Extraction via Prompts](https://link.springer.com/chapter/10.1007/978-3-031-35320-8_32), NLDB2023.
-   Chengguang Gan, Tatsunori Mori
+   **Chengguang Gan**, Tatsunori Mori
 3. [Sensitivity and Robustness of Large Language Models to Prompt in Japanese](https://arxiv.org/abs/2305.08714). PACLIC37(accepted) 2023
-   Chengguang Gan, Tatsunori Mori
+   **Chengguang Gan**, Tatsunori Mori
 
 ---
 
 ### Arxiv
 1. [Mutual Reinforcement Effects in Japanese Sentence Classification and Named Entity Recognition Tasks](https://arxiv.org/abs/2307.10291).
-   Chengguang Gan, Qinghao Zhang, Tatsunori Mori
+   **Chengguang Gan**, Qinghao Zhang, Tatsunori Mori
 2. [USA: Universal Sentiment Analysis Model & Construction of Japanese Sentiment Text Classification and Part of Speech Dataset](https://arxiv.org/abs/2309.03787).
-   Chengguang Gan, Qinghao Zhang, Tatsunori Mori
+   **Chengguang Gan**, Qinghao Zhang, Tatsunori Mori
 ---
 
 ### Journal
@@ -56,8 +56,8 @@ Jiangxi college of construction
 
 ### Domestic Conference
 1. [英文履歴書データ抽出システムへの BERT 適用性の検討](https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=213712&item_no=1&page_id=13&block_id=8), 2021年度 情報処理学会関西支部 支部大会.
-   甘程光， 高橋良英
+   **甘程光**， 高橋良英
 2. [Construction of English resume corpus and test with pre-trained language models]([https://ui.adsabs.harvard.edu/abs/2022arXiv220803219G/abstract](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjJ0r7ep9yAAxX_l1YBHdZ7B9gQFnoECA4QAQ&url=https%3A%2F%2Fwww.anlp.jp%2Fproceedings%2Fannual_meeting%2F2023%2Fpdf_dir%2FC11-5.pdf&usg=AOvVaw31CR2H8c3Ha7TyjkDIwcbx&opi=89978449)https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjJ0r7ep9yAAxX_l1YBHdZ7B9gQFnoECA4QAQ&url=https%3A%2F%2Fwww.anlp.jp%2Fproceedings%2Fannual_meeting%2F2023%2Fpdf_dir%2FC11-5.pdf&usg=AOvVaw31CR2H8c3Ha7TyjkDIwcbx&opi=89978449), 言語処理学会 第29回年次大会.
-   Chengguang Gan, Tatsunori Mori
+   **Chengguang Gan**, Tatsunori Mori
 
 
