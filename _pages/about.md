@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I'm a doctoral student second year from [mori lab](http://www.forest.eis.ynu.ac.jp/) in [Yokohama National University](https://www.ynu.ac.jp/index.html). My research interest natural language process. Sepcific in  Information Extraction, Prompt and Language Model.
+ I'm a doctoral student second year from [Yokohama National University](https://www.ynu.ac.jp/index.html), with an expected graduation date in December 2023 under the supervision of　Prof. [Mori](http://www.forest.eis.ynu.ac.jp/~mori/en/index.html) at [mori lab](http://www.forest.eis.ynu.ac.jp/). My research interest natural language process. Sepcific in  Information Extraction, Prompt and Language Model. 
+ Constructed Japanese Information Extraction Mutual Reinforcement Effect Mix Dataset (Incuding Sentence Classification, Text Classification, Sentiment Classification, Sentiment Part-of-Speech Classification, Relation Extraction and Event Extraction). 
+ Fine-tuned some Japanese' PLMs and LLMs. You can find our's paper codes, models and datasets in Huggingface and github.
 
 Education
 ======
