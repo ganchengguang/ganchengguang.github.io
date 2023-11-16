@@ -47,6 +47,8 @@ Jiangxi college of construction
    **Chengguang Gan**, Qinghao Zhang, Tatsunori Mori
 2. [USA: Universal Sentiment Analysis Model & Construction of Japanese Sentiment Text Classification and Part of Speech Dataset](https://arxiv.org/abs/2309.03787).
    **Chengguang Gan**, Qinghao Zhang, Tatsunori Mori
+3. [GIELLM: Japanese General Information Extraction Large Language Model Utilizing Mutual Reinforcement Effect](https://arxiv.org/abs/2311.06838).
+   **Chengguang Gan**, Qinghao Zhang, Tatsunori Mori
 ---
 
 ### Journal
