@@ -51,6 +51,8 @@ Jiangxi college of construction
    **Chengguang Gan**, Qinghao Zhang, Tatsunori Mori
 3. [GIELLM: Japanese General Information Extraction Large Language Model Utilizing Mutual Reinforcement Effect](https://arxiv.org/abs/2311.06838).
    **Chengguang Gan**, Qinghao Zhang, Tatsunori Mori
+4. [Think from Words(TFW): Initiating Human-Like Cognition in Large Language Models Through Think from Words for Japanese Text-level Classification](https://arxiv.org/abs/2312.03458).
+   **Chengguang Gan**, Qinghao Zhang, Tatsunori Mori
 ---
 
 ### Journal
