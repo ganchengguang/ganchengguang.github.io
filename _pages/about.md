@@ -30,7 +30,7 @@ East China Jiaotong University
 September 2014 - 2017  
 Jiangxi college of construction
 
-Education
+Experience
 ======
 **Research part-timer, RIKEN AIP**(2024.1-Persent)
 **Research Assistant, YNU**(2022.10-Persent)
