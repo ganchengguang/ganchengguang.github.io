@@ -75,4 +75,5 @@ Experience
 2. [Construction of English resume corpus and test with pre-trained language models]([https://ui.adsabs.harvard.edu/abs/2022arXiv220803219G/abstract](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjJ0r7ep9yAAxX_l1YBHdZ7B9gQFnoECA4QAQ&url=https%3A%2F%2Fwww.anlp.jp%2Fproceedings%2Fannual_meeting%2F2023%2Fpdf_dir%2FC11-5.pdf&usg=AOvVaw31CR2H8c3Ha7TyjkDIwcbx&opi=89978449)https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjJ0r7ep9yAAxX_l1YBHdZ7B9gQFnoECA4QAQ&url=https%3A%2F%2Fwww.anlp.jp%2Fproceedings%2Fannual_meeting%2F2023%2Fpdf_dir%2FC11-5.pdf&usg=AOvVaw31CR2H8c3Ha7TyjkDIwcbx&opi=89978449), 言語処理学会 第29回年次大会.
    (2023)**Chengguang Gan**, Tatsunori Mori
 
-
+---
+Reviewer of COLING
