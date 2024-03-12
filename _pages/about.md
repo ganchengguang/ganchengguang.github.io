@@ -6,8 +6,6 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
-
-<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=PVfPPxSdONpGCu4Xi7qNiVX0bL4PSF6sVwA5kLGRPPc"></script>
 ---
 
  I'm a doctoral student second year from [Yokohama National University](https://www.ynu.ac.jp/index.html), with an expected graduation date in March 2025 under the supervision of　Prof. [Mori](http://www.forest.eis.ynu.ac.jp/~mori/en/index.html) at [mori lab](http://www.forest.eis.ynu.ac.jp/). My research interest natural language process. Sepcific in  Information Extraction, Prompt and Language Model. 
