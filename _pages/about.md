@@ -61,6 +61,8 @@ Experience
    (2023)**Chengguang Gan**, Qinghao Zhang, Tatsunori Mori
 5. [Application of LLM Agents in Recruitment: A Novel Framework for Resume Screening](https://arxiv.org/abs/2401.08315).
    (2024)**Chengguang Gan**, Qinghao Zhang, Tatsunori Mori
+6. [Demonstrating Mutual Reinforcement Effect through Information Flow](https://arxiv.org/abs/2403.02902).
+   (2024)**Chengguang Gan**, Xuzheng He, Qinghao Zhang, Tatsunori Mori
 
 ---
 
