@@ -49,6 +49,8 @@ Experience
    **Chengguang Gan**, Tatsunori Mori
 3. [Sensitivity and Robustness of Large Language Models to Prompt in Japanese](https://arxiv.org/abs/2305.08714). PACLIC37.
    (2023)**Chengguang Gan**, Tatsunori Mori
+4. [Think from Words(TFW): Initiating Human-Like Cognition in Large Language Models Through Think from Words for Japanese Text-level Classification](https://arxiv.org/abs/2312.03458).
+   (2023)**Chengguang Gan**, Qinghao Zhang, Tatsunori Mori
 
 ---
 
@@ -59,11 +61,9 @@ Experience
    (2023)**Chengguang Gan**, Qinghao Zhang, Tatsunori Mori
 3. [GIELLM: Japanese General Information Extraction Large Language Model Utilizing Mutual Reinforcement Effect](https://arxiv.org/abs/2311.06838).
    (2023)**Chengguang Gan**, Qinghao Zhang, Tatsunori Mori
-4. [Think from Words(TFW): Initiating Human-Like Cognition in Large Language Models Through Think from Words for Japanese Text-level Classification](https://arxiv.org/abs/2312.03458).
-   (2023)**Chengguang Gan**, Qinghao Zhang, Tatsunori Mori
-5. [Application of LLM Agents in Recruitment: A Novel Framework for Resume Screening](https://arxiv.org/abs/2401.08315).
+4. [Application of LLM Agents in Recruitment: A Novel Framework for Resume Screening](https://arxiv.org/abs/2401.08315).
    (2024)**Chengguang Gan**, Qinghao Zhang, Tatsunori Mori
-6. [Demonstrating Mutual Reinforcement Effect through Information Flow](https://arxiv.org/abs/2403.02902).
+5. [Demonstrating Mutual Reinforcement Effect through Information Flow](https://arxiv.org/abs/2403.02902).
    (2024)**Chengguang Gan**, Xuzheng He, Qinghao Zhang, Tatsunori Mori
 
 ---
