@@ -50,7 +50,7 @@ Experience
 3. [Sensitivity and Robustness of Large Language Models to Prompt in Japanese](https://arxiv.org/abs/2305.08714). PACLIC37.
    (2023)**Chengguang Gan**, Tatsunori Mori
 4. [Think from Words(TFW): Initiating Human-Like Cognition in Large Language Models Through Think from Words for Japanese Text-level Classification](https://arxiv.org/abs/2312.03458).
-  NLDB2023. **Chengguang Gan**, Qinghao Zhang, Tatsunori Mori
+  NLDB2024. **Chengguang Gan**, Qinghao Zhang, Tatsunori Mori
 
 ---
 
