@@ -32,9 +32,9 @@ Jiangxi college of construction
 
 Experience
 ======
-**part-timer, National Institute of Informatics Large Language Center**(2024.4-Persent)
+**part-timer, National Institute of Informatics Large Language Center**(2024.5-Persent)
 
-**Research part-timer, RIKEN AIP**(2024.1-2024.3)
+**Research part-timer, RIKEN AIP**(2024.1-2024.5)
 
 **Research Assistant, YNU**(2022.10-Persent)
 
