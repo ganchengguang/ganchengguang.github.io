@@ -68,7 +68,7 @@ Experience
 
 ### Journal
 1. [Application of LLM Agents in Recruitment: A Novel Framework for Resume Screening](https://arxiv.org/abs/2401.08315).
-   (2024)**Chengguang Gan**, Qinghao Zhang, Tatsunori Mori
+   (Journal of Information Processing, 2024)**Chengguang Gan**, Qinghao Zhang, Tatsunori Mori
 
 ---
 
