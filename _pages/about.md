@@ -63,11 +63,13 @@ Experience
    (2023)**Chengguang Gan**, Qinghao Zhang, Tatsunori Mori
 4. [MMM: Multilingual Mutual Reinforcement Effect Mix Datasets & Test with Open-domain Information Extraction Large Language Models](https://arxiv.org/abs/2407.10953).
    (2024)**Chengguang Gan**, Qingyu Yin, Xinyang He, Hanjun Wei, Yunhao Liang, Younghun Lim, Shijian Wang, Hexiang Huang, Qinghao Zhang, Shiwen Ni, Tatsunori Mori
+5. [Empirical Study of Mutual Reinforcement Effect and Application in Few-shot Text Classification Tasks via Prompt](https://arxiv.org/abs/2410.09745)).
+   (2023)**Chengguang Gan**, Tatsunori Mori
 
 ---
 
 ### Journal
-1. [Application of LLM Agents in Recruitment: A Novel Framework for Resume Screening](https://arxiv.org/abs/2401.08315).
+1. [Application of LLM Agents in Recruitment: A Novel Framework for Resume Screening](https://www.jstage.jst.go.jp/article/ipsjjip/32/0/32_881/_article).
    (Journal of Information Processing, 2024)**Chengguang Gan**, Qinghao Zhang, Tatsunori Mori
 
 ---
