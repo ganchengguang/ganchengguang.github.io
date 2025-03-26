@@ -14,7 +14,7 @@ redirect_from:
 
 Education
 ======
-**Doctor of Informatics (In pr**  
+**Doctor of Informatics**  
 April 2022 - March 2025 
 Graduate School of Environment and Information Sciences, Yokohama National University
 
