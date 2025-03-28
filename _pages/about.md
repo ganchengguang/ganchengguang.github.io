@@ -32,7 +32,9 @@ Jiangxi college of construction
 
 Experience
 ======
-**part-timer, National Institute of Informatics Large Language Model Center**(2024.5-Persent)
+**Generic Solution, Full-time Data Scientist**(2025.4-present)
+
+**part-timer, National Institute of Informatics Large Language Model Center**(2024.5-2025.3)
 
 **Research part-timer, RIKEN AIP**(2024.1-2024.5)
 
@@ -51,7 +53,8 @@ Experience
    (2023)**Chengguang Gan**, Tatsunori Mori
 4. [Think from Words(TFW): Initiating Human-Like Cognition in Large Language Models Through Think from Words for Japanese Text-level Classification](https://arxiv.org/abs/2312.03458).
   NLDB2024. **Chengguang Gan**, Qinghao Zhang, Tatsunori Mori
-
+5. Think from Words(TFW): Initiating Human-Like Cognition in Large Language Models Through Think from Words for Japanese Text-level Classification]([https://arxiv.org/abs/2312.03458](https://proceedings.neurips.cc/paper_files/paper/2024/hash/52764eb83bf0a0bd32766ce5c01612e5-Abstract-Datasets_and_Benchmarks_Track.html)).
+   NeurIPS2024. Ziqiang Liu, Feiteng Fang, Xi Feng, Xeron Du, Chenhao Zhang, Noah Wang, Qixuan Zhao, Liyang Fan, **Chengguang Gan**, Hongquan Lin, Jiaming Li, Yuansheng Ni, Haihong Wu, Yaswanth Narsupalli, Zhigang Zheng, Chengming Li, Xiping Hu, Ruifeng Xu, Xiaojun Chen, Min Yang, Jiaheng Liu, Ruibo Liu, Wenhao Huang, Ge Zhang, Shiwen Ni
 ---
 
 ### Arxiv
