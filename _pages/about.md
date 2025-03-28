@@ -32,11 +32,11 @@ Jiangxi college of construction
 
 Experience
 ======
-**Generic Solution, Full-time Data Scientist**(2025.4-present)
+**Full-time Data Scientist, Generic Solution**(2025.4-present)
 
-**part-timer, National Institute of Informatics Large Language Model Center**(2024.5-2025.3)
+**Part-timer, National Institute of Informatics Large Language Model Center**(2024.5-2025.3)
 
-**Research part-timer, RIKEN AIP**(2024.1-2024.5)
+**Research Part-timer, RIKEN AIP**(2024.1-2024.5)
 
 **Research Assistant, YNU**(2022.10-2023.3)
 
