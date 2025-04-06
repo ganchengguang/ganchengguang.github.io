@@ -53,7 +53,10 @@ Experience
    (2023)**Chengguang Gan**, Tatsunori Mori
 4. [Think from Words(TFW): Initiating Human-Like Cognition in Large Language Models Through Think from Words for Japanese Text-level Classification](https://arxiv.org/abs/2312.03458).
   NLDB2024. **Chengguang Gan**, Qinghao Zhang, Tatsunori Mori
-5. [II-bench: An image implication understanding benchmark for multimodal large language models](https://proceedings.neurips.cc/paper_files/paper/2024/hash/52764eb83bf0a0bd32766ce5c01612e5-Abstract-Datasets_and_Benchmarks_Track.html) NeurIPS2024. Ziqiang Liu, Feiteng Fang, Xi Feng, Xeron Du, Chenhao Zhang, Noah Wang, Qixuan Zhao, Liyang Fan, **Chengguang Gan**, Hongquan Lin, Jiaming Li, Yuansheng Ni, Haihong Wu, Yaswanth Narsupalli, Zhigang Zheng, Chengming Li, Xiping Hu, Ruifeng Xu, Xiaojun Chen, Min Yang, Jiaheng Liu, Ruibo Liu, Wenhao Huang, Ge Zhang, Shiwen Ni
+5. [II-bench: An image implication understanding benchmark for multimodal large language models](https://proceedings.neurips.cc/paper_files/paper/2024/hash/52764eb83bf0a0bd32766ce5c01612e5-Abstract-Datasets_and_Benchmarks_Track.html) NeurIPS2024. Ziqiang Liu, Feiteng Fang, Xi Feng, Xeron Du, Chenhao Zhang, Noah Wang, Qixuan Zhao, Liyang Fan, Chengguang Gan, Hongquan Lin, Jiaming Li, Yuansheng Ni, Haihong Wu, Yaswanth Narsupalli, Zhigang Zheng, Chengming Li, Xiping Hu, Ruifeng Xu, Xiaojun Chen, Min Yang, Jiaheng Liu, Ruibo Liu, Wenhao Huang, Ge Zhang, Shiwen Ni
+
+
+
 ---
 
 ### Arxiv
