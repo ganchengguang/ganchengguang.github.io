@@ -53,7 +53,9 @@ Experience
    (2023)**Chengguang Gan**, Tatsunori Mori
 4. [Think from Words(TFW): Initiating Human-Like Cognition in Large Language Models Through Think from Words for Japanese Text-level Classification](https://arxiv.org/abs/2312.03458).
   NLDB2024. **Chengguang Gan**, Qinghao Zhang, Tatsunori Mori
-5. [II-bench: An image implication understanding benchmark for multimodal large language models](https://proceedings.neurips.cc/paper_files/paper/2024/hash/52764eb83bf0a0bd32766ce5c01612e5-Abstract-Datasets_and_Benchmarks_Track.html) NeurIPS2024. Ziqiang Liu, Feiteng Fang, Xi Feng, Xeron Du, Chenhao Zhang, Noah Wang, Qixuan Zhao, Liyang Fan, Chengguang Gan, Hongquan Lin, Jiaming Li, Yuansheng Ni, Haihong Wu, Yaswanth Narsupalli, Zhigang Zheng, Chengming Li, Xiping Hu, Ruifeng Xu, Xiaojun Chen, Min Yang, Jiaheng Liu, Ruibo Liu, Wenhao Huang, Ge Zhang, Shiwen Ni
+5. [II-bench: An image implication understanding benchmark for multimodal large language models](https://proceedings.neurips.cc/paper_files/paper/2024/hash/52764eb83bf0a0bd32766ce5c01612e5-Abstract-Datasets_and_Benchmarks_Track.html) NeurIPS2024. Ziqiang Liu, Feiteng Fang, Xi Feng, Xeron Du, Chenhao Zhang, Noah Wang, Qixuan Zhao, Liyang Fan, **Chengguang Gan**, Hongquan Lin, Jiaming Li, Yuansheng Ni, Haihong Wu, Yaswanth Narsupalli, Zhigang Zheng, Chengming Li, Xiping Hu, Ruifeng Xu, Xiaojun Chen, Min Yang, Jiaheng Liu, Ruibo Liu, Wenhao Huang, Ge Zhang, Shiwen Ni
+6. [GIELLM: Japanese General Information Extraction Large Language Model Utilizing Mutual Reinforcement Effect](https://arxiv.org/abs/2311.06838).
+   IJCNN2025 **Chengguang Gan**, Qinghao Zhang, Tatsunori Mori
 
 
 
@@ -64,11 +66,9 @@ Experience
    (2023)**Chengguang Gan**, Qinghao Zhang, Tatsunori Mori
 2. [USA: Universal Sentiment Analysis Model & Construction of Japanese Sentiment Text Classification and Part of Speech Dataset](https://arxiv.org/abs/2309.03787).
    (2023)**Chengguang Gan**, Qinghao Zhang, Tatsunori Mori
-3. [GIELLM: Japanese General Information Extraction Large Language Model Utilizing Mutual Reinforcement Effect](https://arxiv.org/abs/2311.06838).
-   (2023)**Chengguang Gan**, Qinghao Zhang, Tatsunori Mori
-4. [MMM: Multilingual Mutual Reinforcement Effect Mix Datasets & Test with Open-domain Information Extraction Large Language Models](https://arxiv.org/abs/2407.10953).
+3. [MMM: Multilingual Mutual Reinforcement Effect Mix Datasets & Test with Open-domain Information Extraction Large Language Models](https://arxiv.org/abs/2407.10953).
    (2024)**Chengguang Gan**, Qingyu Yin, Xinyang He, Hanjun Wei, Yunhao Liang, Younghun Lim, Shijian Wang, Hexiang Huang, Qinghao Zhang, Shiwen Ni, Tatsunori Mori
-5. [Empirical Study of Mutual Reinforcement Effect and Application in Few-shot Text Classification Tasks via Prompt](https://arxiv.org/abs/2410.09745)).
+4. [Empirical Study of Mutual Reinforcement Effect and Application in Few-shot Text Classification Tasks via Prompt](https://arxiv.org/abs/2410.09745)).
    (2023)**Chengguang Gan**, Tatsunori Mori
 
 ---
