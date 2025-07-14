@@ -71,7 +71,7 @@ Experience
 4. [Empirical Study of Mutual Reinforcement Effect and Application in Few-shot Text Classification Tasks via Prompt](https://arxiv.org/abs/2410.09745)).
    (2023)**Chengguang Gan**, Tatsunori Mori
 5. [M-MRE: Extending the Mutual Reinforcement Effect to Multimodal Information Extraction](https://arxiv.org/abs/2504.17353)).
-   (2025)**Chengguang Gan**, Sunbowen Lee, Zhixi Cai, Yanbin Wei, Lei Zheng, Yunhao Liang, Shiwen Ni, Tatsunori Mori
+   (2025)**Chengguang Gan**, Zhixi Cai, Yanbin Wei, Yunhao Liang, Shiwen Ni, Tatsunori Mori
 
 ---
 
