@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
- Currently, I am working as a data scientist. I received my Ph.D. in March 2025 from [Yokohama National University](https://www.ynu.ac.jp/index.html), where I conducted research under the supervision of Prof. [Mori](http://www.forest.eis.ynu.ac.jp/~mori/en/index.html). My research interest natural language process. Sepcific in  Information Extraction, Prompt and Language Model. 
+ Currently, I am working as a LLM Researcher in Techtouch. I received my Ph.D. in March 2025 from [Yokohama National University](https://www.ynu.ac.jp/index.html), where I conducted research under the supervision of Prof. [Mori](http://www.forest.eis.ynu.ac.jp/~mori/en/index.html). My research interest natural language process. Sepcific in  Information Extraction, Prompt and Language Model. 
  Constructed Japanese Information Extraction Mutual Reinforcement Effect Mix Dataset (Incuding Sentence Classification, Text Classification, Sentiment Classification, Sentiment Part-of-Speech Classification, Relation Extraction and Event Extraction). 
  Fine-tuned some Japanese' PLMs and LLMs. You can find our's paper codes, models and datasets in Huggingface and github.
 
@@ -32,7 +32,9 @@ Jiangxi college of construction
 
 Experience
 ======
-**Full-time Data Scientist, Generic Solution**(2025.4-present)
+**Full-time LLM Researcher, Techtouch**(2025.12-present)
+
+**Full-time Data Scientist, Generic Solution**(2025.4-2025.11)
 
 **Part-timer, National Institute of Informatics Large Language Model Center**(2024.5-2025.3)
 
