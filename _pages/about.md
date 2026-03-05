@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome Gan Chengguang academic personal websites"
+title: "Welcome Gan Chengguang Academic Personal Websites"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
