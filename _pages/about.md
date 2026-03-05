@@ -73,6 +73,8 @@ Experience
    (2023)**Chengguang Gan**, Tatsunori Mori
 4. [M-MRE: Extending the Mutual Reinforcement Effect to Multimodal Information Extraction](https://arxiv.org/abs/2504.17353)).
    (2025)**Chengguang Gan**, Zhixi Cai, Yanbin Wei, Yunhao Liang, Shiwen Ni, Tatsunori Mori
+5. [GuideWeb: A Benchmark for Automatic In-App Guide Generation on Real-World Web UIs](https://arxiv.org/abs/2602.01917)).
+   (2026)**Chengguang Gan**, Yoshihiro Tsujii, Yunhao Liang, Tatsunori Mori, Shiwen Ni, Hiroki Itoh
 
 ---
 
