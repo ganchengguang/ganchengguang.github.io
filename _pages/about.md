@@ -59,21 +59,20 @@ Experience
 6. [GIELLM: Japanese General Information Extraction Large Language Model Utilizing Mutual Reinforcement Effect](https://arxiv.org/abs/2311.06838).
    IJCNN2025 **Chengguang Gan**, Qinghao Zhang, Tatsunori Mori
 7. [USA: Universal Sentiment Analysis Model & Construction of Japanese Sentiment Text Classification and Part of Speech Dataset](https://arxiv.org/abs/2309.03787).
-   (PACLIC 2025)**Chengguang Gan**, Qinghao Zhang, Tatsunori Mori
-
+   PACLIC 2025. **Chengguang Gan**, Qinghao Zhang, Tatsunori Mori
+8. [MMM: Multilingual Mutual Reinforcement Effect Mix Datasets & Test with Open-domain Information Extraction Large Language Models](https://arxiv.org/abs/2407.10953).
+   ACL 2026 Findings. **Chengguang Gan**, Qingyu Yin, Xinyang He, Hanjun Wei, Yunhao Liang, Younghun Lim, Shijian Wang, Hexiang Huang, Qinghao Zhang, Shiwen Ni, Tatsunori Mori
 
 ---
 
 ### Arxiv
 1. [Mutual Reinforcement Effects in Japanese Sentence Classification and Named Entity Recognition Tasks](https://arxiv.org/abs/2307.10291).
    (2023)**Chengguang Gan**, Qinghao Zhang, Tatsunori Mori
-2. [MMM: Multilingual Mutual Reinforcement Effect Mix Datasets & Test with Open-domain Information Extraction Large Language Models](https://arxiv.org/abs/2407.10953).
-   (2024)**Chengguang Gan**, Qingyu Yin, Xinyang He, Hanjun Wei, Yunhao Liang, Younghun Lim, Shijian Wang, Hexiang Huang, Qinghao Zhang, Shiwen Ni, Tatsunori Mori
-3. [Empirical Study of Mutual Reinforcement Effect and Application in Few-shot Text Classification Tasks via Prompt](https://arxiv.org/abs/2410.09745)).
+2. [Empirical Study of Mutual Reinforcement Effect and Application in Few-shot Text Classification Tasks via Prompt](https://arxiv.org/abs/2410.09745)).
    (2023)**Chengguang Gan**, Tatsunori Mori
-4. [M-MRE: Extending the Mutual Reinforcement Effect to Multimodal Information Extraction](https://arxiv.org/abs/2504.17353)).
+3. [M-MRE: Extending the Mutual Reinforcement Effect to Multimodal Information Extraction](https://arxiv.org/abs/2504.17353)).
    (2025)**Chengguang Gan**, Zhixi Cai, Yanbin Wei, Yunhao Liang, Shiwen Ni, Tatsunori Mori
-5. [GuideWeb: A Benchmark for Automatic In-App Guide Generation on Real-World Web UIs](https://arxiv.org/abs/2602.01917)).
+4. [GuideWeb: A Benchmark for Automatic In-App Guide Generation on Real-World Web UIs](https://arxiv.org/abs/2602.01917)).
    (2026)**Chengguang Gan**, Yoshihiro Tsujii, Yunhao Liang, Tatsunori Mori, Shiwen Ni, Hiroki Itoh
 
 ---
