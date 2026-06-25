@@ -1,2 +1,4 @@
+token.txt
 _site/
-
+.DS_Store
+Thumbs.db
