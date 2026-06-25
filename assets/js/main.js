@@ -140,31 +140,6 @@
     }
   }
 
-  /* ---- Stat count-up ---- */
-  var statNums = document.querySelectorAll(".stat__num[data-count]");
-  function countUp(el) {
-    var target = parseInt(el.getAttribute("data-count"), 10) || 0;
-    if (reduceMotion) { el.textContent = target; return; }
-    var start = null, dur = 1100;
-    function step(ts) {
-      if (start === null) start = ts;
-      var p = Math.min((ts - start) / dur, 1);
-      var eased = 1 - Math.pow(1 - p, 3);
-      el.textContent = Math.round(target * eased);
-      if (p < 1) requestAnimationFrame(step);
-      else el.textContent = target;
-    }
-    requestAnimationFrame(step);
-  }
-  if (statNums.length && "IntersectionObserver" in window) {
-    var statIO = new IntersectionObserver(function (entries) {
-      entries.forEach(function (entry) {
-        if (entry.isIntersecting) { countUp(entry.target); statIO.unobserve(entry.target); }
-      });
-    }, { threshold: 0.6 });
-    statNums.forEach(function (el) { statIO.observe(el); });
-  }
-
   /* ---- Year in footer ---- */
   var yearEl = document.getElementById("year");
   if (yearEl) yearEl.textContent = new Date().getFullYear();
