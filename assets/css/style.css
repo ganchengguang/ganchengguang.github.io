@@ -269,6 +269,26 @@ strong { font-weight: 600; color: var(--ink); }
 .pub__link { display: inline-flex; align-items: center; gap: 5px; font-size: 0.83rem; font-weight: 600; color: var(--accent); margin-left: auto; }
 .pub__link:hover { text-decoration: underline; }
 
+/* ===== Experience & Education timeline ===== */
+.timeline-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; }
+.timeline-col__title { font-size: 1.05rem; font-weight: 600; margin-bottom: 22px; color: var(--ink); }
+.timeline-col__title i { color: var(--accent); margin-right: 8px; }
+.timeline { list-style: none; position: relative; padding-left: 22px; }
+.timeline::before {
+  content: ""; position: absolute; left: 4px; top: 6px; bottom: 6px;
+  width: 2px; background: var(--line);
+}
+.timeline__item { position: relative; padding-bottom: 24px; }
+.timeline__item:last-child { padding-bottom: 0; }
+.timeline__item::before {
+  content: ""; position: absolute; left: -22px; top: 5px;
+  width: 11px; height: 11px; border-radius: 50%;
+  background: var(--bg); border: 2px solid var(--accent);
+}
+.timeline__when { font-family: var(--font-mono); font-size: 0.78rem; font-weight: 500; color: var(--accent); margin-bottom: 3px; }
+.timeline__what strong { display: block; font-size: 1rem; }
+.timeline__what span { display: block; color: var(--ink-soft); font-size: 0.9rem; line-height: 1.5; }
+
 /* ===== Cards (projects + hobbies) ===== */
 .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 16px; }
 .cards--3 { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
@@ -343,6 +363,7 @@ strong { font-weight: 600; color: var(--ink); }
   .section__title { font-size: 1.6rem; }
   .pub { grid-template-columns: 1fr; gap: 8px; padding: 18px; }
   .pub__link { margin-left: 0; }
+  .timeline-grid { grid-template-columns: 1fr; gap: 40px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
