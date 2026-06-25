@@ -4,46 +4,48 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Chengguang Gan — LLM Researcher</title>
-  <meta name="description" content="Chengguang Gan (甘程光) is an LLM Researcher at Techtouch. Ph.D. from Yokohama National University. Research on large language models, information extraction, prompting, and the Mutual Reinforcement Effect." />
+  <meta name="description" content="Chengguang Gan is an LLM Researcher at Techtouch and a Ph.D. in Informatics from Yokohama National University. Research on large language models, information extraction, web agents, and the Mutual Reinforcement Effect. NeurIPS · ACL · IJCNN." />
   <meta name="author" content="Chengguang Gan" />
 
-  <!-- Open Graph / Twitter -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Chengguang Gan — LLM Researcher" />
-  <meta property="og:description" content="LLM Researcher at Techtouch. Ph.D. from Yokohama National University. NLP · LLMs · Information Extraction." />
+  <meta property="og:description" content="LLM Researcher at Techtouch · Ph.D. from Yokohama National University. NLP · LLMs · Information Extraction · Web Agents." />
   <meta property="og:url" content="https://ganchengguang.github.io" />
   <meta property="og:image" content="https://ganchengguang.github.io/assets/img/profile.png" />
   <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chengguang Gan — LLM Researcher" />
+  <meta name="twitter:description" content="LLM Researcher at Techtouch · Ph.D. from Yokohama National University. NLP · LLMs · Information Extraction · Web Agents." />
+  <meta name="twitter:image" content="https://ganchengguang.github.io/assets/img/profile.png" />
+
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fbfbfa" />
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0c0e13" />
 
   <link rel="canonical" href="https://ganchengguang.github.io" />
   <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
 
-  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
 
-  <!-- Icons: Font Awesome + Academicons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css" referrerpolicy="no-referrer" />
 
   <link rel="stylesheet" href="assets/css/style.css" />
   <noscript><style>.reveal{opacity:1 !important;transform:none !important;}</style></noscript>
 
-  <!-- Structured data for SEO -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Chengguang Gan",
-    "alternateName": "甘程光",
     "url": "https://ganchengguang.github.io",
     "image": "https://ganchengguang.github.io/assets/img/profile.png",
     "jobTitle": "LLM Researcher",
     "worksFor": { "@type": "Organization", "name": "Techtouch" },
     "alumniOf": { "@type": "CollegeOrUniversity", "name": "Yokohama National University" },
+    "knowsAbout": ["Large Language Models", "Natural Language Processing", "Information Extraction", "Web Agents", "Prompting"],
     "sameAs": [
-      "https://scholar.google.com/citations?user=FepMPoMAAAAJ&hl=ja",
+      "https://scholar.google.com/citations?user=FepMPoMAAAAJ&hl=en",
       "https://orcid.org/0000-0001-8034-0993",
       "https://github.com/ganchengguang",
       "https://huggingface.co/ganchengguang",
@@ -54,23 +56,26 @@
 </head>
 <body>
 
+  <a class="skip-link" href="#top">Skip to content</a>
+
   <!-- ===== Navbar ===== -->
   <header class="nav" id="nav">
     <div class="nav__inner">
-      <a href="#top" class="nav__brand">CG<span class="dot">.</span></a>
+      <a href="#top" class="nav__brand" aria-label="Chengguang Gan — home">CG<span class="dot" aria-hidden="true">_</span></a>
       <nav class="nav__links" id="navLinks">
         <a href="#about">About</a>
         <a href="#news">News</a>
         <a href="#publications">Publications</a>
-        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#beyond">Beyond</a>
         <a href="#contact">Contact</a>
       </nav>
       <div class="nav__actions">
         <button class="icon-btn" id="themeToggle" aria-label="Toggle dark mode" title="Toggle theme">
           <i class="fas fa-moon"></i>
         </button>
-        <button class="icon-btn nav__burger" id="navBurger" aria-label="Open menu">
-          <i class="fas fa-bars"></i>
+        <button class="icon-btn nav__burger" id="navBurger" aria-label="Menu" aria-expanded="false" aria-controls="navLinks">
+          <i class="fas fa-bars" aria-hidden="true"></i>
         </button>
       </div>
     </div>
@@ -80,32 +85,44 @@
 
     <!-- ===== Hero ===== -->
     <section class="hero">
+      <div class="hero__bg" aria-hidden="true"></div>
       <div class="hero__grid">
         <div class="hero__text">
-          <p class="hero__eyebrow">Hi, I&rsquo;m</p>
+          <p class="hero__eyebrow">// LLM Researcher · Tokyo</p>
           <h1 class="hero__name">Chengguang Gan</h1>
-          <p class="hero__cn">甘程光</p>
           <p class="hero__role">
-            LLM Researcher <span class="sep">·</span> <a href="https://techtouch.jp/" target="_blank" rel="noopener">Techtouch</a>
+            LLM Researcher <span class="at">@</span> <a href="https://techtouch.jp/" target="_blank" rel="noopener">Techtouch</a>
+            <span class="sep">·</span> Ph.D. in Informatics
           </p>
+
+          <div class="term" aria-hidden="true">
+            <span class="term__dots"><i></i><i></i><i></i></span>
+            <code class="term__line"><span class="term__prompt">~/research</span> <span class="term__sym">$</span> focus --now <span class="term__out" id="typed"></span><span class="term__caret">▋</span></code>
+          </div>
+
           <p class="hero__tagline">
-            Ph.D. in Informatics from Yokohama National University. I work on
-            <strong>large language models</strong>, <strong>information extraction</strong>,
-            <strong>prompting</strong>, and the <strong>Mutual Reinforcement Effect</strong>.
+            I build and study <strong>large language models</strong> for
+            <strong>information extraction</strong>, <strong>web agents</strong>, and
+            the <strong>Mutual Reinforcement Effect</strong> — and I ship the datasets and
+            models to back it up.
           </p>
+
+          <!-- NOTE: contact email is intentionally "ganchengguan" (one 'g'), confirmed by the owner. Do NOT "correct" it to ganchengguang. -->
           <div class="hero__links">
-            <a class="social" href="mailto:gan-chengguang-pw@ynu.jp" title="Email" aria-label="Email"><i class="fas fa-envelope"></i></a>
-            <a class="social" href="https://scholar.google.com/citations?user=FepMPoMAAAAJ&hl=ja" target="_blank" rel="noopener" title="Google Scholar" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+            <a class="social" href="mailto:ganchengguan@yahoo.co.jp" title="Email" aria-label="Email"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+            <a class="social" href="https://scholar.google.com/citations?user=FepMPoMAAAAJ&hl=en" target="_blank" rel="noopener" title="Google Scholar" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
             <a class="social" href="https://orcid.org/0000-0001-8034-0993" target="_blank" rel="noopener" title="ORCID" aria-label="ORCID"><i class="ai ai-orcid"></i></a>
             <a class="social" href="https://github.com/ganchengguang" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub"><i class="fab fa-github"></i></a>
             <a class="social" href="https://huggingface.co/ganchengguang" target="_blank" rel="noopener" title="Hugging Face" aria-label="Hugging Face"><span class="hf">🤗</span></a>
             <a class="social" href="https://www.linkedin.com/in/ganchengguang" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
           </div>
+
           <div class="hero__cta">
             <a class="btn btn--primary" href="#publications">View Publications</a>
             <a class="btn btn--ghost" href="#contact">Get in touch</a>
           </div>
         </div>
+
         <div class="hero__photo">
           <div class="photo-frame">
             <img src="assets/img/profile.png" alt="Chengguang Gan" loading="eager" />
@@ -113,30 +130,50 @@
           <div class="hero__loc"><i class="fas fa-location-dot"></i> Tokyo, Japan</div>
         </div>
       </div>
+
+      <!-- Stats strip -->
+      <div class="stats reveal">
+        <a class="stat" href="https://scholar.google.com/citations?user=FepMPoMAAAAJ&hl=en" target="_blank" rel="noopener">
+          <span class="stat__num" data-count="291">291</span>
+          <span class="stat__label">Citations</span>
+        </a>
+        <a class="stat" href="https://scholar.google.com/citations?user=FepMPoMAAAAJ&hl=en" target="_blank" rel="noopener">
+          <span class="stat__num" data-count="7">7</span>
+          <span class="stat__label">h-index</span>
+        </a>
+        <a class="stat" href="#publications">
+          <span class="stat__num" data-count="20">20</span>
+          <span class="stat__label">Publications</span>
+        </a>
+        <a class="stat" href="#projects">
+          <span class="stat__num" data-count="10">10</span>
+          <span class="stat__label">Open models &amp; sets</span>
+        </a>
+      </div>
+      <p class="stats__note">Google Scholar metrics, updated Jun 2026.</p>
     </section>
 
     <!-- ===== About ===== -->
     <section id="about" class="section reveal">
       <div class="section__head">
-        <span class="section__kicker">01</span>
+        <span class="section__kicker">// 01</span>
         <h2 class="section__title">About</h2>
       </div>
       <div class="about__body">
         <p>
-          I am currently an <strong>LLM Researcher at Techtouch</strong>. I received my Ph.D. in
+          I&rsquo;m an <strong>LLM Researcher at Techtouch</strong> in Tokyo. I earned my Ph.D. in
           Informatics in March 2025 from
           <a href="https://www.ynu.ac.jp/english/" target="_blank" rel="noopener">Yokohama National University</a>,
-          where I was advised by Prof.
+          advised by Prof.
           <a href="http://www.forest.eis.ynu.ac.jp/~mori/en/index.html" target="_blank" rel="noopener">Tatsunori Mori</a>.
-          My research centers on natural language processing — specifically information extraction,
-          prompting, and language models.
+          My work spans natural language processing and large language models — with a focus on
+          information extraction, prompting, multimodal IE, and web agents.
         </p>
         <p>
-          I constructed the <strong>Japanese Information Extraction Mutual Reinforcement Effect Mix Dataset</strong>
-          (covering sentence classification, text classification, sentiment classification, sentiment
-          part-of-speech classification, relation extraction, and event extraction), and fine-tuned a
-          number of Japanese pre-trained and large language models. You can find our papers, code,
-          models, and datasets on
+          I introduced the <strong>Mutual Reinforcement Effect</strong> and built the Japanese (and later
+          multilingual) IE Mix datasets — covering sentence, text, sentiment and POS classification,
+          relation and event extraction — then fine-tuned a line of open LLMs on top of them. Everything
+          ships: you can grab the papers, code, datasets, and models on
           <a href="https://huggingface.co/ganchengguang" target="_blank" rel="noopener">Hugging Face</a> and
           <a href="https://github.com/ganchengguang" target="_blank" rel="noopener">GitHub</a>.
         </p>
@@ -147,6 +184,7 @@
           <li>Mutual Reinforcement Effect</li>
           <li>Multimodal IE</li>
           <li>Web Agents</li>
+          <li>Japanese NLP</li>
         </ul>
         <p class="about__service">
           <i class="fas fa-pen-nib"></i> Reviewer for <strong>COLING</strong> and <strong>Cogent Engineering</strong>.
@@ -157,14 +195,14 @@
     <!-- ===== News ===== -->
     <section id="news" class="section reveal">
       <div class="section__head">
-        <span class="section__kicker">02</span>
+        <span class="section__kicker">// 02</span>
         <h2 class="section__title">News</h2>
       </div>
       <ul class="news">
         <li><span class="news__date">2026</span><span class="news__text"><strong>MMM</strong> accepted to <strong>ACL 2026 Findings</strong>.</span></li>
         <li><span class="news__date">2026</span><span class="news__text">New preprint — <strong>GuideWeb</strong>: a benchmark for automatic in-app guide generation on real-world web UIs.</span></li>
         <li><span class="news__date">2025</span><span class="news__text">Joined <strong>Techtouch</strong> as an LLM Researcher.</span></li>
-        <li><span class="news__date">2025</span><span class="news__text"><strong>GIELLM</strong> accepted to <strong>IJCNN 2025</strong>; <strong>USA</strong> accepted to <strong>PACLIC 2025</strong>.</span></li>
+        <li><span class="news__date">2025</span><span class="news__text"><strong>GIELLM</strong> at <strong>IJCNN 2025</strong>; <strong>USA</strong> at <strong>PACLIC 2025</strong>; two code-generation papers at <strong>ICIC 2025</strong>.</span></li>
         <li><span class="news__date">2025</span><span class="news__text">Received my <strong>Ph.D. in Informatics</strong> from Yokohama National University.</span></li>
         <li><span class="news__date">2024</span><span class="news__text"><strong>II-Bench</strong> accepted to <strong>NeurIPS 2024</strong> (Datasets &amp; Benchmarks Track).</span></li>
       </ul>
@@ -173,15 +211,15 @@
     <!-- ===== Publications ===== -->
     <section id="publications" class="section reveal">
       <div class="section__head">
-        <span class="section__kicker">03</span>
+        <span class="section__kicker">// 03</span>
         <h2 class="section__title">Publications</h2>
       </div>
       <p class="pub__note">
-        Author names: <strong>bold</strong> indicates me. Full list on my
-        <a href="https://scholar.google.com/citations?user=FepMPoMAAAAJ&hl=ja" target="_blank" rel="noopener">Google Scholar</a>.
+        <strong>Bold</strong> = me. Citation counts via
+        <a href="https://scholar.google.com/citations?user=FepMPoMAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a> (Jun 2026).
       </p>
 
-      <div class="filters" id="filters">
+      <div class="filters" id="filters" role="group" aria-label="Filter publications by type">
         <button class="filter is-active" data-filter="all">All</button>
         <button class="filter" data-filter="conference">Conference</button>
         <button class="filter" data-filter="journal">Journal</button>
@@ -191,7 +229,7 @@
 
       <ol class="pubs" id="pubs">
 
-        <!-- Conference -->
+        <!-- 2026 -->
         <li class="pub" data-type="conference" data-year="2026">
           <div class="pub__year">2026</div>
           <div class="pub__main">
@@ -201,86 +239,58 @@
           </div>
         </li>
 
-        <li class="pub" data-type="conference" data-year="2025">
-          <div class="pub__year">2025</div>
-          <div class="pub__main">
-            <h3 class="pub__title"><a href="https://arxiv.org/abs/2309.03787" target="_blank" rel="noopener">USA: Universal Sentiment Analysis Model &amp; Construction of Japanese Sentiment Text Classification and Part-of-Speech Dataset</a></h3>
-            <p class="pub__authors"><strong>Chengguang Gan</strong>, Qinghao Zhang, Tatsunori Mori</p>
-            <div class="pub__meta"><span class="venue">PACLIC 2025</span><a class="pub__link" href="https://arxiv.org/abs/2309.03787" target="_blank" rel="noopener"><i class="ai ai-arxiv"></i> arXiv</a></div>
-          </div>
-        </li>
-
-        <li class="pub" data-type="conference" data-year="2025">
-          <div class="pub__year">2025</div>
-          <div class="pub__main">
-            <h3 class="pub__title"><a href="https://arxiv.org/abs/2311.06838" target="_blank" rel="noopener">GIELLM: Japanese General Information Extraction Large Language Model Utilizing Mutual Reinforcement Effect</a></h3>
-            <p class="pub__authors"><strong>Chengguang Gan</strong>, Qinghao Zhang, Tatsunori Mori</p>
-            <div class="pub__meta"><span class="venue">IJCNN 2025</span><a class="pub__link" href="https://arxiv.org/abs/2311.06838" target="_blank" rel="noopener"><i class="ai ai-arxiv"></i> arXiv</a></div>
-          </div>
-        </li>
-
-        <li class="pub" data-type="conference" data-year="2024">
-          <div class="pub__year">2024</div>
-          <div class="pub__main">
-            <h3 class="pub__title"><a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/52764eb83bf0a0bd32766ce5c01612e5-Abstract-Datasets_and_Benchmarks_Track.html" target="_blank" rel="noopener">II-Bench: An Image Implication Understanding Benchmark for Multimodal Large Language Models</a></h3>
-            <p class="pub__authors">Ziqiang Liu, Feiteng Fang, Xi Feng, Xeron Du, Chenhao Zhang, Noah Wang, Qixuan Zhao, Liyang Fan, <strong>Chengguang Gan</strong>, Hongquan Lin, Jiaming Li, Yuansheng Ni, Haihong Wu, Yaswanth Narsupalli, Zhigang Zheng, Chengming Li, Xiping Hu, Ruifeng Xu, Xiaojun Chen, Min Yang, Jiaheng Liu, Ruibo Liu, Wenhao Huang, Ge Zhang, Shiwen Ni</p>
-            <div class="pub__meta"><span class="venue venue--top">NeurIPS 2024</span><a class="pub__link" href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/52764eb83bf0a0bd32766ce5c01612e5-Abstract-Datasets_and_Benchmarks_Track.html" target="_blank" rel="noopener"><i class="fas fa-up-right-from-square"></i> Proceedings</a></div>
-          </div>
-        </li>
-
-        <li class="pub" data-type="conference" data-year="2024">
-          <div class="pub__year">2024</div>
-          <div class="pub__main">
-            <h3 class="pub__title"><a href="https://arxiv.org/abs/2312.03458" target="_blank" rel="noopener">Think from Words (TFW): Initiating Human-Like Cognition in Large Language Models Through Think from Words for Japanese Text-level Classification</a></h3>
-            <p class="pub__authors"><strong>Chengguang Gan</strong>, Qinghao Zhang, Tatsunori Mori</p>
-            <div class="pub__meta"><span class="venue">NLDB 2024</span><a class="pub__link" href="https://arxiv.org/abs/2312.03458" target="_blank" rel="noopener"><i class="ai ai-arxiv"></i> arXiv</a></div>
-          </div>
-        </li>
-
-        <li class="pub" data-type="conference" data-year="2023">
-          <div class="pub__year">2023</div>
-          <div class="pub__main">
-            <h3 class="pub__title"><a href="https://arxiv.org/abs/2305.08714" target="_blank" rel="noopener">Sensitivity and Robustness of Large Language Models to Prompt in Japanese</a></h3>
-            <p class="pub__authors"><strong>Chengguang Gan</strong>, Tatsunori Mori</p>
-            <div class="pub__meta"><span class="venue">PACLIC 37</span><a class="pub__link" href="https://arxiv.org/abs/2305.08714" target="_blank" rel="noopener"><i class="ai ai-arxiv"></i> arXiv</a></div>
-          </div>
-        </li>
-
-        <li class="pub" data-type="conference" data-year="2023">
-          <div class="pub__year">2023</div>
-          <div class="pub__main">
-            <h3 class="pub__title"><a href="https://link.springer.com/chapter/10.1007/978-3-031-35320-8_32" target="_blank" rel="noopener">A Few-Shot Approach to Resume Information Extraction via Prompts</a></h3>
-            <p class="pub__authors"><strong>Chengguang Gan</strong>, Tatsunori Mori</p>
-            <div class="pub__meta"><span class="venue">NLDB 2023</span><a class="pub__link" href="https://link.springer.com/chapter/10.1007/978-3-031-35320-8_32" target="_blank" rel="noopener"><i class="fas fa-up-right-from-square"></i> Springer</a></div>
-          </div>
-        </li>
-
-        <li class="pub" data-type="conference" data-year="2023">
-          <div class="pub__year">2023</div>
-          <div class="pub__main">
-            <h3 class="pub__title"><a href="https://link.springer.com/chapter/10.1007/978-3-031-35320-8_18" target="_blank" rel="noopener">Sentence-to-Label Generation Framework for Multi-task Learning of Japanese Sentence Classification and Named Entity Recognition</a></h3>
-            <p class="pub__authors"><strong>Chengguang Gan</strong>, Qinghao Zhang, Tatsunori Mori</p>
-            <div class="pub__meta"><span class="venue">NLDB 2023</span><a class="pub__link" href="https://link.springer.com/chapter/10.1007/978-3-031-35320-8_18" target="_blank" rel="noopener"><i class="fas fa-up-right-from-square"></i> Springer</a></div>
-          </div>
-        </li>
-
-        <!-- Journal -->
-        <li class="pub" data-type="journal" data-year="2024">
-          <div class="pub__year">2024</div>
-          <div class="pub__main">
-            <h3 class="pub__title"><a href="https://www.jstage.jst.go.jp/article/ipsjjip/32/0/32_881/_article" target="_blank" rel="noopener">Application of LLM Agents in Recruitment: A Novel Framework for Resume Screening</a></h3>
-            <p class="pub__authors"><strong>Chengguang Gan</strong>, Qinghao Zhang, Tatsunori Mori</p>
-            <div class="pub__meta"><span class="venue venue--journal">Journal of Information Processing</span><a class="pub__link" href="https://www.jstage.jst.go.jp/article/ipsjjip/32/0/32_881/_article" target="_blank" rel="noopener"><i class="fas fa-up-right-from-square"></i> J-STAGE</a></div>
-          </div>
-        </li>
-
-        <!-- Preprints -->
         <li class="pub" data-type="preprint" data-year="2026">
           <div class="pub__year">2026</div>
           <div class="pub__main">
             <h3 class="pub__title"><a href="https://arxiv.org/abs/2602.01917" target="_blank" rel="noopener">GuideWeb: A Benchmark for Automatic In-App Guide Generation on Real-World Web UIs</a></h3>
             <p class="pub__authors"><strong>Chengguang Gan</strong>, Yoshihiro Tsujii, Yunhao Liang, Tatsunori Mori, Shiwen Ni, Hiroki Itoh</p>
             <div class="pub__meta"><span class="venue venue--pre">Preprint</span><a class="pub__link" href="https://arxiv.org/abs/2602.01917" target="_blank" rel="noopener"><i class="ai ai-arxiv"></i> arXiv</a></div>
+          </div>
+        </li>
+
+        <!-- 2025 -->
+        <li class="pub" data-type="conference" data-year="2025">
+          <div class="pub__year">2025</div>
+          <div class="pub__main">
+            <h3 class="pub__title"><a href="https://doi.org/10.1109/IJCNN64981.2025.11227752" target="_blank" rel="noopener">GIELLM: Japanese General Information Extraction Large Language Model Utilizing Mutual Reinforcement Effects</a></h3>
+            <p class="pub__authors"><strong>Chengguang Gan</strong>, Qinghao Zhang, Tatsunori Mori</p>
+            <div class="pub__meta"><span class="venue">IJCNN 2025</span><span class="cited">cited by 16</span><a class="pub__link" href="https://doi.org/10.1109/IJCNN64981.2025.11227752" target="_blank" rel="noopener"><i class="fas fa-up-right-from-square"></i> IEEE</a></div>
+          </div>
+        </li>
+
+        <li class="pub" data-type="conference" data-year="2025">
+          <div class="pub__year">2025</div>
+          <div class="pub__main">
+            <h3 class="pub__title"><a href="https://aclanthology.org/2025.paclic-1.46/" target="_blank" rel="noopener">USA Model: Japanese Universal Sentiment Analysis Model &amp; Construction of Japanese Sentiment Text Classification and Part-of-Speech Dataset</a></h3>
+            <p class="pub__authors"><strong>Chengguang Gan</strong>, Qinghao Zhang, Tatsunori Mori</p>
+            <div class="pub__meta"><span class="venue">PACLIC 2025</span><a class="pub__link" href="https://aclanthology.org/2025.paclic-1.46/" target="_blank" rel="noopener"><i class="fas fa-up-right-from-square"></i> ACL Anthology</a></div>
+          </div>
+        </li>
+
+        <li class="pub" data-type="conference" data-year="2025">
+          <div class="pub__year">2025</div>
+          <div class="pub__main">
+            <h3 class="pub__title"><a href="https://doi.org/10.1007/978-981-95-0014-7_43" target="_blank" rel="noopener">RECODE: Leveraging Reliable Self-generated Tests and Fine-Grained Execution Feedback to Enhance LLM-Based Code Generation</a></h3>
+            <p class="pub__authors">Yunhao Liang, Ruixuan Ying, Takuya Taniguchi, <strong>Chengguang Gan</strong>, Zhe Cui</p>
+            <div class="pub__meta"><span class="venue">ICIC 2025</span><a class="pub__link" href="https://doi.org/10.1007/978-981-95-0014-7_43" target="_blank" rel="noopener"><i class="fas fa-up-right-from-square"></i> Springer</a></div>
+          </div>
+        </li>
+
+        <li class="pub" data-type="conference" data-year="2025">
+          <div class="pub__year">2025</div>
+          <div class="pub__main">
+            <h3 class="pub__title"><a href="https://doi.org/10.1007/978-981-95-0014-7_4" target="_blank" rel="noopener">Exploring Behavior-Driven Development for Code Generation</a></h3>
+            <p class="pub__authors">Yunhao Liang, <strong>Chengguang Gan</strong>, Ruixuan Ying, Zhe Cui</p>
+            <div class="pub__meta"><span class="venue">ICIC 2025</span><a class="pub__link" href="https://doi.org/10.1007/978-981-95-0014-7_4" target="_blank" rel="noopener"><i class="fas fa-up-right-from-square"></i> Springer</a></div>
+          </div>
+        </li>
+
+        <li class="pub" data-type="conference" data-year="2025">
+          <div class="pub__year">2025</div>
+          <div class="pub__main">
+            <h3 class="pub__title"><a href="https://doi.org/10.1007/978-981-95-5719-6_27" target="_blank" rel="noopener">Retrieval and Distill: A Temporal Data Shift-Free Paradigm for Online Recommendation System</a></h3>
+            <p class="pub__authors">Lei Zheng, Ning Li, <strong>Chengguang Gan</strong>, Yong Yu, Weinan Zhang</p>
+            <div class="pub__meta"><span class="venue">APWeb-WAIM 2025</span><a class="pub__link" href="https://doi.org/10.1007/978-981-95-5719-6_27" target="_blank" rel="noopener"><i class="fas fa-up-right-from-square"></i> Springer</a></div>
           </div>
         </li>
 
@@ -293,12 +303,86 @@
           </div>
         </li>
 
-        <li class="pub" data-type="preprint" data-year="2023">
-          <div class="pub__year">2023</div>
+        <li class="pub" data-type="preprint" data-year="2025">
+          <div class="pub__year">2025</div>
+          <div class="pub__main">
+            <h3 class="pub__title"><a href="https://www.biorxiv.org/content/10.64898/2025.12.03.692003v1" target="_blank" rel="noopener">Decoding Prokaryotic Whole Genomes with a Product-Contextualized Large Language Model</a></h3>
+            <p class="pub__authors">Shiwen Ni, Sheng Li, Shijian Wang, Xin Bi, Yang Li, <strong>Chengguang Gan</strong>, et al.</p>
+            <div class="pub__meta"><span class="venue venue--pre">bioRxiv</span><a class="pub__link" href="https://www.biorxiv.org/content/10.64898/2025.12.03.692003v1" target="_blank" rel="noopener"><i class="fas fa-up-right-from-square"></i> bioRxiv</a></div>
+          </div>
+        </li>
+
+        <!-- 2024 -->
+        <li class="pub" data-type="journal" data-year="2024">
+          <div class="pub__year">2024</div>
+          <div class="pub__main">
+            <h3 class="pub__title"><a href="https://doi.org/10.2197/ipsjjip.32.881" target="_blank" rel="noopener">Application of LLM Agents in Recruitment: A Novel Framework for Resume Screening</a></h3>
+            <p class="pub__authors"><strong>Chengguang Gan</strong>, Qinghao Zhang, Tatsunori Mori</p>
+            <div class="pub__meta"><span class="venue venue--journal">Journal of Information Processing</span><span class="cited cited--hot">cited by 151</span><a class="pub__link" href="https://doi.org/10.2197/ipsjjip.32.881" target="_blank" rel="noopener"><i class="fas fa-up-right-from-square"></i> J-STAGE</a></div>
+          </div>
+        </li>
+
+        <li class="pub" data-type="conference" data-year="2024">
+          <div class="pub__year">2024</div>
+          <div class="pub__main">
+            <h3 class="pub__title"><a href="http://papers.nips.cc/paper_files/paper/2024/hash/52764eb83bf0a0bd32766ce5c01612e5-Abstract-Datasets_and_Benchmarks_Track.html" target="_blank" rel="noopener">II-Bench: An Image Implication Understanding Benchmark for Multimodal Large Language Models</a></h3>
+            <p class="pub__authors">Ziqiang Liu, Feiteng Fang, Xi Feng, Xinrun Du, Chenhao Zhang, Zekun Wang, Yuelin Bai, Qixuan Zhao, Liyang Fan, <strong>Chengguang Gan</strong>, et al.</p>
+            <div class="pub__meta"><span class="venue venue--top">NeurIPS 2024</span><span class="cited cited--hot">cited by 21</span><a class="pub__link" href="http://papers.nips.cc/paper_files/paper/2024/hash/52764eb83bf0a0bd32766ce5c01612e5-Abstract-Datasets_and_Benchmarks_Track.html" target="_blank" rel="noopener"><i class="fas fa-up-right-from-square"></i> Proceedings</a></div>
+          </div>
+        </li>
+
+        <li class="pub" data-type="conference" data-year="2024">
+          <div class="pub__year">2024</div>
+          <div class="pub__main">
+            <h3 class="pub__title"><a href="https://doi.org/10.1007/978-3-031-70242-6_5" target="_blank" rel="noopener">Think from Words (TFW): Initiating Human-Like Cognition in Large Language Models Through Think from Words for Japanese Text-level Classification</a></h3>
+            <p class="pub__authors"><strong>Chengguang Gan</strong>, Qinghao Zhang, Tatsunori Mori</p>
+            <div class="pub__meta"><span class="venue">NLDB 2024</span><a class="pub__link" href="https://doi.org/10.1007/978-3-031-70242-6_5" target="_blank" rel="noopener"><i class="fas fa-up-right-from-square"></i> Springer</a></div>
+          </div>
+        </li>
+
+        <li class="pub" data-type="preprint" data-year="2024">
+          <div class="pub__year">2024</div>
           <div class="pub__main">
             <h3 class="pub__title"><a href="https://arxiv.org/abs/2410.09745" target="_blank" rel="noopener">Empirical Study of Mutual Reinforcement Effect and Application in Few-shot Text Classification Tasks via Prompt</a></h3>
             <p class="pub__authors"><strong>Chengguang Gan</strong>, Tatsunori Mori</p>
             <div class="pub__meta"><span class="venue venue--pre">Preprint</span><a class="pub__link" href="https://arxiv.org/abs/2410.09745" target="_blank" rel="noopener"><i class="ai ai-arxiv"></i> arXiv</a></div>
+          </div>
+        </li>
+
+        <li class="pub" data-type="preprint" data-year="2024">
+          <div class="pub__year">2024</div>
+          <div class="pub__main">
+            <h3 class="pub__title"><a href="https://arxiv.org/abs/2403.02902" target="_blank" rel="noopener">Demonstrating Mutual Reinforcement Effect through Information Flow</a></h3>
+            <p class="pub__authors"><strong>Chengguang Gan</strong>, Xuzheng He, Qinghao Zhang, Tatsunori Mori</p>
+            <div class="pub__meta"><span class="venue venue--pre">Preprint</span><a class="pub__link" href="https://arxiv.org/abs/2403.02902" target="_blank" rel="noopener"><i class="ai ai-arxiv"></i> arXiv</a></div>
+          </div>
+        </li>
+
+        <!-- 2023 -->
+        <li class="pub" data-type="conference" data-year="2023">
+          <div class="pub__year">2023</div>
+          <div class="pub__main">
+            <h3 class="pub__title"><a href="https://aclanthology.org/2023.paclic-1.1/" target="_blank" rel="noopener">Sensitivity and Robustness of Large Language Models to Prompt Template in Japanese Text Classification Tasks</a></h3>
+            <p class="pub__authors"><strong>Chengguang Gan</strong>, Tatsunori Mori</p>
+            <div class="pub__meta"><span class="venue">PACLIC 37</span><span class="cited cited--hot">cited by 48</span><a class="pub__link" href="https://aclanthology.org/2023.paclic-1.1/" target="_blank" rel="noopener"><i class="fas fa-up-right-from-square"></i> ACL Anthology</a></div>
+          </div>
+        </li>
+
+        <li class="pub" data-type="conference" data-year="2023">
+          <div class="pub__year">2023</div>
+          <div class="pub__main">
+            <h3 class="pub__title"><a href="https://doi.org/10.1007/978-3-031-35320-8_32" target="_blank" rel="noopener">A Few-Shot Approach to Resume Information Extraction via Prompts</a></h3>
+            <p class="pub__authors"><strong>Chengguang Gan</strong>, Tatsunori Mori</p>
+            <div class="pub__meta"><span class="venue">NLDB 2023</span><span class="cited">cited by 16</span><a class="pub__link" href="https://doi.org/10.1007/978-3-031-35320-8_32" target="_blank" rel="noopener"><i class="fas fa-up-right-from-square"></i> Springer</a></div>
+          </div>
+        </li>
+
+        <li class="pub" data-type="conference" data-year="2023">
+          <div class="pub__year">2023</div>
+          <div class="pub__main">
+            <h3 class="pub__title"><a href="https://doi.org/10.1007/978-3-031-35320-8_18" target="_blank" rel="noopener">Sentence-to-Label Generation Framework for Multi-task Learning of Japanese Sentence Classification and Named Entity Recognition</a></h3>
+            <p class="pub__authors"><strong>Chengguang Gan</strong>, Qinghao Zhang, Tatsunori Mori</p>
+            <div class="pub__meta"><span class="venue">NLDB 2023</span><span class="cited">cited by 12</span><a class="pub__link" href="https://doi.org/10.1007/978-3-031-35320-8_18" target="_blank" rel="noopener"><i class="fas fa-up-right-from-square"></i> Springer</a></div>
           </div>
         </li>
 
@@ -311,21 +395,21 @@
           </div>
         </li>
 
-        <!-- Domestic -->
         <li class="pub" data-type="domestic" data-year="2023">
           <div class="pub__year">2023</div>
           <div class="pub__main">
-            <h3 class="pub__title"><a href="https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/C11-5.pdf" target="_blank" rel="noopener">Construction of English Resume Corpus and Test with Pre-trained Language Models</a></h3>
+            <h3 class="pub__title"><a href="https://arxiv.org/abs/2208.03219" target="_blank" rel="noopener">Construction of English Resume Corpus and Test with Pre-trained Language Models</a></h3>
             <p class="pub__authors"><strong>Chengguang Gan</strong>, Tatsunori Mori</p>
-            <div class="pub__meta"><span class="venue venue--dom">ANLP 2023 (29th Annual Meeting)</span><a class="pub__link" href="https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/C11-5.pdf" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> PDF</a></div>
+            <div class="pub__meta"><span class="venue venue--dom">ANLP 2023</span><a class="pub__link" href="https://arxiv.org/abs/2208.03219" target="_blank" rel="noopener"><i class="ai ai-arxiv"></i> arXiv</a></div>
           </div>
         </li>
 
+        <!-- 2021 -->
         <li class="pub" data-type="domestic" data-year="2021">
           <div class="pub__year">2021</div>
           <div class="pub__main">
             <h3 class="pub__title"><a href="https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=213712&item_no=1&page_id=13&block_id=8" target="_blank" rel="noopener">英文履歴書データ抽出システムへの BERT 適用性の検討</a></h3>
-            <p class="pub__authors"><strong>甘程光</strong>, 高橋良英</p>
+            <p class="pub__authors"><strong>Chengguang Gan</strong>, Yoshihide Takahashi</p>
             <div class="pub__meta"><span class="venue venue--dom">IPSJ Kansai 2021</span><a class="pub__link" href="https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=213712&item_no=1&page_id=13&block_id=8" target="_blank" rel="noopener"><i class="fas fa-up-right-from-square"></i> IPSJ</a></div>
           </div>
         </li>
@@ -333,56 +417,85 @@
       </ol>
     </section>
 
-    <!-- ===== Experience & Education ===== -->
-    <section id="experience" class="section reveal">
+    <!-- ===== Projects / Open Source ===== -->
+    <section id="projects" class="section reveal">
       <div class="section__head">
-        <span class="section__kicker">04</span>
-        <h2 class="section__title">Experience &amp; Education</h2>
+        <span class="section__kicker">// 04</span>
+        <h2 class="section__title">Open Source</h2>
       </div>
-      <div class="timeline-grid">
+      <p class="pub__note">Datasets, models, and code behind the papers — free to use.</p>
 
-        <div class="timeline-col">
-          <h3 class="timeline-col__title"><i class="fas fa-briefcase"></i> Experience</h3>
-          <ul class="timeline">
-            <li class="timeline__item">
-              <div class="timeline__when">2025 — Present</div>
-              <div class="timeline__what"><strong>LLM Researcher</strong><span>Techtouch</span></div>
-            </li>
-            <li class="timeline__item">
-              <div class="timeline__when">2025</div>
-              <div class="timeline__what"><strong>Data Scientist</strong><span>Generic Solution</span></div>
-            </li>
-            <li class="timeline__item">
-              <div class="timeline__when">2024 — 2025</div>
-              <div class="timeline__what"><strong>Part-time Researcher</strong><span>NII Large Language Model Center</span></div>
-            </li>
-            <li class="timeline__item">
-              <div class="timeline__when">2024</div>
-              <div class="timeline__what"><strong>Research Part-timer</strong><span>RIKEN AIP</span></div>
-            </li>
-            <li class="timeline__item">
-              <div class="timeline__when">2022 — 2023</div>
-              <div class="timeline__what"><strong>Research Assistant</strong><span>Yokohama National University</span></div>
-            </li>
-          </ul>
+      <div class="cards">
+
+        <a class="card" href="https://huggingface.co/datasets/ganchengguang/resume_seven_class" target="_blank" rel="noopener">
+          <div class="card__top"><span class="card__kind kind--data"><span aria-hidden="true">🤗</span> Dataset</span><span class="card__stat"><i class="fas fa-download"></i> 139 · <i class="fas fa-heart"></i> 15</span></div>
+          <h3 class="card__name">resume_seven_class</h3>
+          <p class="card__desc">~78k-entry resume sentence-classification dataset across seven section types. My most-downloaded release.</p>
+        </a>
+
+        <a class="card" href="https://huggingface.co/datasets/ganchengguang/MMM-datasets-Testset" target="_blank" rel="noopener">
+          <div class="card__top"><span class="card__kind kind--data"><span aria-hidden="true">🤗</span> Dataset</span><span class="card__stat"><i class="fas fa-download"></i> 58</span></div>
+          <h3 class="card__name">MMM Multilingual Test Set</h3>
+          <p class="card__desc">Trilingual (EN / JA / ZH) test set for the Mutual Reinforcement Effect IE benchmark — ACL 2026 Findings.</p>
+        </a>
+
+        <a class="card" href="https://huggingface.co/ganchengguang/Yoko-7B-Japanese-v1" target="_blank" rel="noopener">
+          <div class="card__top"><span class="card__kind kind--model"><span aria-hidden="true">🤗</span> Model</span><span class="card__stat">7B · JA/EN/ZH</span></div>
+          <h3 class="card__name">Yoko-7B-Japanese</h3>
+          <p class="card__desc">LLaMA2-based Japanese LLM. The most-liked model on my Hugging Face profile.</p>
+        </a>
+
+        <a class="card" href="https://huggingface.co/ganchengguang/OIELLM-8B-Instruction" target="_blank" rel="noopener">
+          <div class="card__top"><span class="card__kind kind--model"><span aria-hidden="true">🤗</span> Model</span><span class="card__stat">8B · Instruct</span></div>
+          <h3 class="card__name">OIELLM-8B</h3>
+          <p class="card__desc">Open-domain information-extraction LLM (LLaMA3-8B) for trilingual NER &amp; IE — the model behind MMM.</p>
+        </a>
+
+        <a class="card" href="https://huggingface.co/ganchengguang/GIELLM-7B" target="_blank" rel="noopener">
+          <div class="card__top"><span class="card__kind kind--model"><span aria-hidden="true">🤗</span> Model</span><span class="card__stat">7B</span></div>
+          <h3 class="card__name">GIELLM-7B</h3>
+          <p class="card__desc">General Information Extraction LLM behind the GIELLM / Mutual Reinforcement Effect paper (IJCNN 2025).</p>
+        </a>
+
+        <a class="card" href="https://github.com/ganchengguang/MRE" target="_blank" rel="noopener">
+          <div class="card__top"><span class="card__kind kind--code"><i class="fab fa-github"></i> Code</span><span class="card__stat">Hub repo</span></div>
+          <h3 class="card__name">Mutual Reinforcement Effect</h3>
+          <p class="card__desc">The home for my flagship research line — USA, GIELLM, OIELLM and the MMM mix datasets, all linked in one place.</p>
+        </a>
+
+      </div>
+      <p class="cards__more">
+        More on <a href="https://huggingface.co/ganchengguang" target="_blank" rel="noopener">Hugging Face</a>
+        and <a href="https://github.com/ganchengguang" target="_blank" rel="noopener">GitHub</a>.
+      </p>
+    </section>
+
+    <!-- ===== Beyond Research ===== -->
+    <section id="beyond" class="section reveal">
+      <div class="section__head">
+        <span class="section__kicker">// 05</span>
+        <h2 class="section__title">Beyond Research</h2>
+      </div>
+      <p class="pub__note">When I&rsquo;m away from the terminal.</p>
+      <div class="cards cards--3">
+
+        <a class="card card--hobby" href="https://steamcommunity.com/id/375623682/" target="_blank" rel="noopener">
+          <div class="hobby__icon"><i class="fas fa-gamepad"></i></div>
+          <h3 class="card__name">Gaming &amp; Tech</h3>
+          <p class="card__desc">PC gamer and hardware tinkerer at heart — the same itch that makes me want to take models apart and see what makes them tick.</p>
+          <span class="card__link"><i class="fab fa-steam"></i> Steam profile</span>
+        </a>
+
+        <div class="card card--hobby">
+          <div class="hobby__icon"><i class="fas fa-mountain-sun"></i></div>
+          <h3 class="card__name">Outdoors</h3>
+          <p class="card__desc">I recharge on trails and high places — from Tokyo&rsquo;s edges to the mountains. Fresh air, long hikes, big views.</p>
         </div>
 
-        <div class="timeline-col">
-          <h3 class="timeline-col__title"><i class="fas fa-graduation-cap"></i> Education</h3>
-          <ul class="timeline">
-            <li class="timeline__item">
-              <div class="timeline__when">2022 — 2025</div>
-              <div class="timeline__what"><strong>Ph.D. in Informatics</strong><span>Graduate School of Environment and Information Sciences, Yokohama National University</span></div>
-            </li>
-            <li class="timeline__item">
-              <div class="timeline__when">2020 — 2022</div>
-              <div class="timeline__what"><strong>M.S. in Information Technology</strong><span>The Kyoto College of Graduate Studies for Informatics</span></div>
-            </li>
-            <li class="timeline__item">
-              <div class="timeline__when">2014 — 2018</div>
-              <div class="timeline__what"><strong>East China Jiaotong University</strong><span>Nanchang, China</span></div>
-            </li>
-          </ul>
+        <div class="card card--hobby">
+          <div class="hobby__icon"><i class="fas fa-camera-retro"></i></div>
+          <h3 class="card__name">Photography</h3>
+          <p class="card__desc">I shoot landscapes and the quiet moments in between. The header photo is one of mine, somewhere up in the hills.</p>
         </div>
 
       </div>
@@ -391,30 +504,31 @@
     <!-- ===== Contact ===== -->
     <section id="contact" class="section section--contact reveal">
       <div class="section__head">
-        <span class="section__kicker">05</span>
+        <span class="section__kicker">// 06</span>
         <h2 class="section__title">Get in touch</h2>
       </div>
       <p class="contact__lead">
-        Open to research collaborations and discussions on LLMs, information extraction, and agents.
-        Reach me by email or connect on any of the platforms below.
+        Open to research collaborations and roles in LLMs, NLP, and agents.
+        Best reached by email — or find me on the platforms below.
       </p>
-      <a class="btn btn--primary btn--lg" href="mailto:gan-chengguang-pw@ynu.jp">
-        <i class="fas fa-envelope"></i> gan-chengguang-pw@ynu.jp
+      <a class="btn btn--primary btn--lg" href="mailto:ganchengguan@yahoo.co.jp">
+        <i class="fas fa-envelope"></i> ganchengguan@yahoo.co.jp
       </a>
       <div class="contact__socials">
-        <a class="social social--lg" href="https://scholar.google.com/citations?user=FepMPoMAAAAJ&hl=ja" target="_blank" rel="noopener" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+        <a class="social social--lg" href="https://scholar.google.com/citations?user=FepMPoMAAAAJ&hl=en" target="_blank" rel="noopener" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
         <a class="social social--lg" href="https://orcid.org/0000-0001-8034-0993" target="_blank" rel="noopener" title="ORCID"><i class="ai ai-orcid"></i></a>
         <a class="social social--lg" href="https://github.com/ganchengguang" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>
         <a class="social social--lg" href="https://huggingface.co/ganchengguang" target="_blank" rel="noopener" title="Hugging Face"><span class="hf">🤗</span></a>
         <a class="social social--lg" href="https://www.linkedin.com/in/ganchengguang" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a class="social social--lg" href="https://steamcommunity.com/id/375623682/" target="_blank" rel="noopener" title="Steam"><i class="fab fa-steam"></i></a>
       </div>
     </section>
 
   </main>
 
   <footer class="footer">
-    <p>&copy; <span id="year"></span> Chengguang Gan · 甘程光</p>
-    <p class="footer__sub">Built with plain HTML &amp; CSS, hosted on GitHub Pages.</p>
+    <p>&copy; <span id="year"></span> Chengguang Gan</p>
+    <p class="footer__sub">Built from scratch with plain HTML &amp; CSS · hosted on GitHub Pages</p>
   </footer>
 
   <script src="assets/js/main.js"></script>
