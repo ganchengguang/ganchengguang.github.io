@@ -13,6 +13,7 @@ index.html              # the whole page (semantic, SEO-friendly)
 assets/css/style.css    # theme (light/dark via CSS variables), layout, responsive
 assets/js/main.js       # theme toggle, mobile nav, publication filters, scroll reveal
 assets/img/             # profile photo + favicon
+visitor-worker/         # Cloudflare Worker + D1 backend for the visitor map
 .nojekyll               # tell GitHub Pages to serve files as-is (skip Jekyll)
 ```
 
@@ -35,6 +36,16 @@ Icons come from [Font Awesome](https://fontawesome.com/) and
 python -m http.server 4173
 # open http://localhost:4173
 ```
+
+## Visitor map
+
+The footer visitor map is static-site friendly: GitHub Pages serves the UI, and
+`visitor-worker/` provides the IP logging API and private admin dashboard via
+Cloudflare Workers + D1.
+
+Deploy the Worker first, then set `data-api-base` on `#visitorMap` in
+`index.html` to the Worker URL. Full steps are in
+[`visitor-worker/README.md`](visitor-worker/README.md).
 
 ## Deploy
 

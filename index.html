@@ -30,7 +30,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css" referrerpolicy="no-referrer" />
 
-  <link rel="stylesheet" href="assets/css/style.css?v=4" />
+  <link rel="stylesheet" href="assets/css/style.css?v=5" />
   <noscript><style>.reveal{opacity:1 !important;transform:none !important;}</style></noscript>
 
   <script type="application/ld+json">
@@ -560,6 +560,34 @@
       </div>
     </section>
 
+    <!-- ===== Visitor Map ===== -->
+    <section id="visitors" class="section section--visitors reveal">
+      <div class="section__head">
+        <span class="section__kicker">// map</span>
+        <h2 class="section__title">Visitors</h2>
+      </div>
+      <div class="visitor-map" id="visitorMap" data-api-base="" data-site-id="ganchengguang.github.io">
+        <div class="visitor-map__top">
+          <div>
+            <p class="visitor-map__eyebrow">Public visitor map</p>
+            <p class="visitor-map__status" id="visitorMapStatus">Visitor backend not connected yet.</p>
+          </div>
+          <div class="visitor-map__pulse" aria-hidden="true"><i class="fas fa-earth-americas"></i></div>
+        </div>
+        <div class="visitor-map__canvas" role="img" aria-label="Approximate world map of recent visitor locations">
+          <div class="visitor-map__land" aria-hidden="true"></div>
+          <div class="visitor-map__pins" id="visitorMapPins" aria-hidden="true"></div>
+          <p class="visitor-map__empty" id="visitorMapEmpty">Deploy the visitor-worker and set data-api-base to enable live visits.</p>
+        </div>
+        <div class="visitor-map__stats" aria-label="Visitor statistics">
+          <span><strong id="visitorTotal">--</strong> visits</span>
+          <span><strong id="visitorLocations">--</strong> places</span>
+          <span><strong id="visitorRecent">--</strong> latest</span>
+        </div>
+        <div class="visitor-map__list" id="visitorMapList" aria-live="polite"></div>
+      </div>
+    </section>
+
   </main>
 
   <footer class="footer">
@@ -567,6 +595,6 @@
     <p class="footer__sub">Built from scratch with plain HTML &amp; CSS · hosted on GitHub Pages</p>
   </footer>
 
-  <script src="assets/js/main.js?v=3"></script>
+  <script src="assets/js/main.js?v=4"></script>
 </body>
 </html>

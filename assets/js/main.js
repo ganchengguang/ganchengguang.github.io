@@ -140,6 +140,163 @@
     }
   }
 
+  /* ---- Visitor map ---- */
+  var visitorMap = document.getElementById("visitorMap");
+  if (visitorMap) {
+    var visitorApiBase = normalizeApiBase(visitorMap.getAttribute("data-api-base"));
+    var visitorSiteId = visitorMap.getAttribute("data-site-id") || window.location.hostname || "local";
+    var visitorStatus = document.getElementById("visitorMapStatus");
+    var visitorPins = document.getElementById("visitorMapPins");
+    var visitorEmpty = document.getElementById("visitorMapEmpty");
+    var visitorList = document.getElementById("visitorMapList");
+    var visitorTotal = document.getElementById("visitorTotal");
+    var visitorLocations = document.getElementById("visitorLocations");
+    var visitorRecent = document.getElementById("visitorRecent");
+
+    if (isConfiguredVisitorApi(visitorApiBase)) {
+      setVisitorText(visitorStatus, "Loading visitor map...");
+      loadVisitorSummary();
+      if (!isLocalPreview()) {
+        trackVisit();
+        window.setTimeout(loadVisitorSummary, 1200);
+      }
+    }
+
+    function normalizeApiBase(value) {
+      return (value || "").replace(/\/+$/, "").trim();
+    }
+
+    function isConfiguredVisitorApi(value) {
+      return Boolean(value) && value.indexOf("REPLACE") === -1 && value.indexOf("<") === -1;
+    }
+
+    function isLocalPreview() {
+      return !window.location.hostname || /^(localhost|127\.0\.0\.1|\[::1\])$/.test(window.location.hostname);
+    }
+
+    function setVisitorText(el, value) {
+      if (el) el.textContent = value;
+    }
+
+    function trackVisit() {
+      var timezone = "";
+      try { timezone = Intl.DateTimeFormat().resolvedOptions().timeZone || ""; } catch (e) {}
+      var payload = {
+        site: visitorSiteId,
+        path: window.location.pathname + window.location.search,
+        title: document.title,
+        referrer: document.referrer || "",
+        language: navigator.language || "",
+        timezone: timezone,
+        screen: window.screen ? [window.screen.width, window.screen.height, window.screen.colorDepth].join("x") : ""
+      };
+
+      fetch(visitorApiBase + "/api/visit", {
+        method: "POST",
+        mode: "cors",
+        credentials: "omit",
+        keepalive: true,
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload)
+      }).catch(function () {});
+    }
+
+    function loadVisitorSummary() {
+      fetch(visitorApiBase + "/api/summary?site=" + encodeURIComponent(visitorSiteId), {
+        method: "GET",
+        mode: "cors",
+        credentials: "omit",
+        cache: "no-store",
+        headers: { "Accept": "application/json" }
+      })
+        .then(function (res) {
+          if (!res.ok) throw new Error("Visitor summary failed");
+          return res.json();
+        })
+        .then(renderVisitorSummary)
+        .catch(function () {
+          setVisitorText(visitorStatus, "Visitor map is temporarily unavailable.");
+        });
+    }
+
+    function renderVisitorSummary(data) {
+      var locations = Array.isArray(data.locations) ? data.locations : [];
+      setVisitorText(visitorTotal, formatVisitorNumber(data.totalVisits || 0));
+      setVisitorText(visitorLocations, formatVisitorNumber(data.uniqueLocations || locations.length || 0));
+      setVisitorText(visitorRecent, formatRelativeTime(data.lastSeen));
+
+      if (visitorPins) visitorPins.textContent = "";
+      if (visitorList) visitorList.textContent = "";
+      visitorMap.classList.toggle("has-data", locations.length > 0);
+      if (visitorEmpty) {
+        visitorEmpty.textContent = locations.length ? "" : "No geolocated visits yet.";
+      }
+
+      locations.slice(0, 80).forEach(function (loc) {
+        var lat = Number(loc.latitude);
+        var lon = Number(loc.longitude);
+        if (!Number.isFinite(lat) || !Number.isFinite(lon) || !visitorPins) return;
+        var pin = document.createElement("span");
+        var visits = Number(loc.visits || 1);
+        pin.className = "visitor-map__pin";
+        pin.style.left = clamp(((lon + 180) / 360) * 100, 2, 98) + "%";
+        pin.style.top = clamp(((90 - lat) / 180) * 100, 4, 96) + "%";
+        pin.style.setProperty("--pin-size", clamp(9 + Math.log(visits + 1) * 4, 10, 24) + "px");
+        pin.title = formatLocationLabel(loc) + " - " + formatVisitorNumber(visits) + " visits";
+        visitorPins.appendChild(pin);
+      });
+
+      locations.slice(0, 4).forEach(function (loc) {
+        if (!visitorList) return;
+        var item = document.createElement("div");
+        var title = document.createElement("strong");
+        var meta = document.createElement("span");
+        item.className = "visitor-map__place";
+        title.textContent = formatLocationLabel(loc);
+        meta.textContent = formatVisitorNumber(loc.visits || 0) + " visits";
+        item.appendChild(title);
+        item.appendChild(meta);
+        visitorList.appendChild(item);
+      });
+
+      setVisitorText(visitorStatus, locations.length ? "Updated " + formatRelativeTime(data.generatedAt) : "Waiting for the first geolocated visit.");
+    }
+
+    function clamp(value, min, max) {
+      return Math.min(Math.max(value, min), max);
+    }
+
+    function formatLocationLabel(loc) {
+      var parts = [loc.city, loc.region, loc.country].filter(Boolean);
+      return parts.length ? parts.join(", ") : "Unknown location";
+    }
+
+    function formatVisitorNumber(value) {
+      try { return Number(value || 0).toLocaleString("en-US"); }
+      catch (e) { return String(value || 0); }
+    }
+
+    function formatRelativeTime(value) {
+      if (!value) return "--";
+      var date = new Date(value);
+      if (Number.isNaN(date.getTime())) return "--";
+      var seconds = Math.max(0, Math.floor((Date.now() - date.getTime()) / 1000));
+      if (seconds < 60) return "now";
+      var units = [
+        [31536000, "y"],
+        [2592000, "mo"],
+        [604800, "w"],
+        [86400, "d"],
+        [3600, "h"],
+        [60, "m"]
+      ];
+      for (var i = 0; i < units.length; i++) {
+        if (seconds >= units[i][0]) return Math.floor(seconds / units[i][0]) + units[i][1] + " ago";
+      }
+      return "--";
+    }
+  }
+
   /* ---- Year in footer ---- */
   var yearEl = document.getElementById("year");
   if (yearEl) yearEl.textContent = new Date().getFullYear();
