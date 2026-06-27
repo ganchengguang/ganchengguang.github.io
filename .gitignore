@@ -1,8 +1,4 @@
 token.txt
 _site/
-node_modules/
-.wrangler/
-.dev.vars
-visitor-worker/.dev.vars
 .DS_Store
 Thumbs.db
