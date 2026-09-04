@@ -4,8 +4,6 @@
 (function () {
   "use strict";
 
-  var reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-
   /* ---- Theme (dark / light) ---- */
   var root = document.documentElement;
   var themeToggle = document.getElementById("themeToggle");
@@ -111,33 +109,6 @@
       });
     }, { rootMargin: "-45% 0px -50% 0px" });
     sections.forEach(function (s) { spy.observe(s); });
-  }
-
-  /* ---- Terminal typing rotator ---- */
-  var typed = document.getElementById("typed");
-  if (typed) {
-    var phrases = [
-      "large language models",
-      "information extraction",
-      "web agents",
-      "the mutual reinforcement effect"
-    ];
-    if (reduceMotion) {
-      typed.textContent = phrases[0];
-    } else {
-      var pi = 0, ci = 0, deleting = false;
-      (function tick() {
-        var word = phrases[pi];
-        typed.textContent = word.slice(0, ci);
-        if (!deleting) {
-          if (ci < word.length) { ci++; setTimeout(tick, 55); }
-          else { deleting = true; setTimeout(tick, 1500); }
-        } else {
-          if (ci > 0) { ci--; setTimeout(tick, 28); }
-          else { deleting = false; pi = (pi + 1) % phrases.length; setTimeout(tick, 260); }
-        }
-      })();
-    }
   }
 
   /* ---- Year in footer ---- */
