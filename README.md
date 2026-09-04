@@ -27,7 +27,7 @@ Icons come from [Font Awesome](https://fontawesome.com/) and
   venue, and link.
 - **Add a news item** — add an `<li>` to the `<ul class="news">` list.
 - **Update bio / experience / education** — edit the corresponding section in `index.html`.
-- **Swap the photo** — replace `assets/img/profile.png`.
+- **Swap the photo** — replace `assets/img/profile.jpg`.
 
 ## Local preview
 
