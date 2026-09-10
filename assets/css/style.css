@@ -337,8 +337,7 @@ strong { font-weight: 600; color: var(--ink); }
   .photo-frame { width: min(250px, 100%); }
 }
 
-@media (max-width: 780px) {
-  body { font-size: 16px; }
+@media (max-width: 900px) {
   .nav__links {
     position: fixed; top: 64px; right: 16px; left: 16px; flex-direction: column;
     background: var(--bg-soft); border: 1px solid var(--line); border-radius: var(--radius);
@@ -348,7 +347,10 @@ strong { font-weight: 600; color: var(--ink); }
   .nav__links.is-open { transform: none; opacity: 1; pointer-events: auto; }
   .nav__links a { padding: 11px 14px; }
   .nav__burger { display: inline-flex; }
+}
 
+@media (max-width: 780px) {
+  body { font-size: 16px; }
   .hero { padding: 36px 24px 24px; }
   .hero__grid { grid-template-columns: 1fr; gap: 28px; text-align: center; }
   .hero__photo { grid-row: 1; }
