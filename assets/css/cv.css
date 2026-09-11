@@ -31,7 +31,10 @@
   background: var(--bg-alt);
 }
 @media (max-width: 480px) {
-  .cv { padding: 28px 16px; }
+  .cv { padding: 24px 16px; }
+  .cv__heading { gap: 16px; margin-bottom: 18px; }
   .cv h1 { font-size: 1.75rem; }
-  .cv__document { height: 65vh; }
+  .cv__actions { width: 100%; }
+  .cv__actions .btn { flex: 1; justify-content: center; min-height: 46px; }
+  .cv__document { height: 72svh; min-height: 360px; }
 }

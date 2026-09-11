@@ -34,15 +34,26 @@
   var burger = document.getElementById("navBurger");
   var navLinks = document.getElementById("navLinks");
   if (burger && navLinks) {
+    function closeMenu(returnFocus) {
+      navLinks.classList.remove("is-open");
+      burger.setAttribute("aria-expanded", "false");
+      if (returnFocus) burger.focus();
+    }
     burger.addEventListener("click", function () {
       var open = navLinks.classList.toggle("is-open");
       burger.setAttribute("aria-expanded", open ? "true" : "false");
     });
     navLinks.addEventListener("click", function (e) {
-      if (e.target.tagName === "A") {
-        navLinks.classList.remove("is-open");
-        burger.setAttribute("aria-expanded", "false");
-      }
+      if (e.target.closest("a")) closeMenu(false);
+    });
+    document.addEventListener("click", function (e) {
+      if (!navLinks.contains(e.target) && !burger.contains(e.target)) closeMenu(false);
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && navLinks.classList.contains("is-open")) closeMenu(true);
+    });
+    window.matchMedia("(max-width: 900px)").addEventListener("change", function () {
+      closeMenu(false);
     });
   }
 
